@@ -1,0 +1,255 @@
+:root
+{
+    --primary: linear-gradient(to bottom right , #0a0057, #3f00ee );
+    /* --primary: #3f00ee; pour une transition en douceur eviter linear gradient*/
+    --secondary: gold;
+    --text: white; 
+    --filtre: invert(100%) sepia(100%) saturate(2000%) hue-rotate(360deg);
+    --lif: snow;
+    --lifh:pink
+ 
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    background:var(--primary);
+    color:var(--text);
+    display: flex;
+    align-items: center;
+    transition:all 2s ease;
+
+   
+    
+
+}
+
+.container
+{
+
+    @media(min-width: 990px)
+    {
+
+        width: 100vw;
+        
+        display: grid;
+        grid-template-columns: 1.8fr 1.2fr; 
+        gap: 1rem;
+        padding: .5rem 1rem; 
+        text-transform: capitalize;
+        
+
+    }
+
+
+    @media(max-width: 990px){    
+        
+        
+        
+    width: 100vw;
+    display: grid;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+        
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+}
+
+
+.main-video, .video-playist {
+
+
+width: 100%;
+height: 30rem;
+
+
+}
+
+.main-video .title
+{margin-top: 1rem;}
+
+.video-playist .title{padding-left: 1rem;}
+
+.video-playist> p{
+    padding: 1rem;
+    color: var(--secondary);
+
+    transition: all 2s ease;
+}
+
+.video-playist .videos{
+    
+
+    height: 70%;
+   overflow-y: auto;
+}
+
+.video-playist .videos::-webkit-scrollbar{
+    width: .4rem;
+border-radius: .4rem;
+background-color:#0005; 
+}
+
+
+.video-playist .videos::-webkit-scrollbar-thumb{
+    
+    border-radius: .4rem;
+    background-color:#fff;
+
+    }
+
+
+.video-playist .videos .video{
+
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;  
+    margin-top: .1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+
+
+.video-playist .videos .video:hover{
+    background-color: #0003;
+}
+
+.video-playist .videos .video.active{
+    background-color: #0003;
+    color:var(--secondary);
+
+    transition: all 2s ease;
+
+}
+
+
+
+.main-video iframe{
+    width: 100vh;
+    height: 25rem;
+
+    border-radius:.5rem
+}
+
+
+.video img{
+
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    width: 1.5rem;
+     filter: invert(100%);
+
+
+    }
+
+    .video h3{
+
+        width: 23rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font: 100 1rem sans-serif;
+        padding: 0 .5rem;
+
+    }
+
+    .video p 
+    {
+        margin-left: 2.5rem;
+    }
+
+    .video-playist .videos .video.active img{
+    filter: var(--filtre);
+
+    transition: all 2s ease;
+    
+    }
+
+    .mavideo2{display: none;}
+
+    .youtube a{
+        display: block;
+        color: var(--text);
+        text-decoration: none;
+
+        transition: all 2s ease;
+
+    }
+
+    .fa-youtube{ 
+        color :red;
+         font-size: 20px;
+         filter: invert(100%) red(30%) saturate(2000%) hue-rotate(360deg);
+
+
+    }
+
+       .icon-paint-format {
+
+        font-size: 50px;
+   
+    } 
+
+    .video-playist{display: flex;
+        flex-direction: column;
+
+        @media (min-width:900px) { align-items: center;
+    
+            
+        }
+       
+    }
+
+    .life{
+
+   line-height: 20px;
+   font-weight: 200;
+   border-bottom: 2px var(--lif);
+   transition: all 0.1s ease;
+ 
+    }
+
+      .life:hover{
+        cursor: pointer;
+        color: var(--lifh);  
+        
+        transition: all 0.1s ease;
+    } 
+
+       .changcolor{
+        cursor: pointer;
+        color: rgb(170, 156, 139);        
+    }
+  
+    @keyframes pluie 
+    {
+  
+      0%{ transform: translateY(-5vh);}
+      100%{transform: translateY(110vh);}
+    }
+  
+    .heart{
+      font-size: 25px;
+    animation:pluie  linear  forwards 1; 
+      position: fixed;
+      top: 0;
+    }

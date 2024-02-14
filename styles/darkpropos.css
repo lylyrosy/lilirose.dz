@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+}
+
+.cover
+{
+
+background-image: url(../imgs/purple.png);
+background-repeat: no-repeat;
+ background-size: cover; 
+ height: 800px;
+
+
+  
+
+}
+
+
+
+
+
+
+@keyframes wave {
+
+
+0%{
+background-position: 1000px;
+}
+
+50%{
+    background-position: 100px;
+}
+
+100%{
+    background-position: 1000px;
+}
+    
+}
+
+@keyframes waveverso {
+
+
+    0%{
+    background-position: -1000px;
+    }
+    
+    50%{
+        background-position: 100px;
+    }
+    
+    100%{
+        background-position: -1000px;
+    }
+        
+    }
+
+.ressac::before
+
+{
+content: "";
+
+position: absolute;
+width: 100%;
+bottom: 0px;
+height: 200px;
+background-image: url(../imgs/floral.png); 
+
+opacity: 0.6;
+animation: waveverso 30s infinite;
+}
+
+
+
+.ressac{
+
+
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 200px;
+    background-image: url(../imgs/floral.png); 
+    
+
+    animation: wave 40s infinite;
+}
+
+h1{
+
+
+    color: whitesmoke;
+    font-family: 'Grand Hotel', cursive;
+font-family: 'Ms Madi', cursive;
+font-size: 3rem;
+}
+
+p{
+
+    font-size: 1.6rem;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Ms Madi', cursive;
+    color: rgb(0, 0, 0);
+}

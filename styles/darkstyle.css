@@ -1,0 +1,373 @@
+*{
+    font-family: sans-serif comic;
+
+}
+
+
+main h1,footer h1{
+
+
+    width: 100%; 
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     /* font-family: 'Gloria Hallelujah', cursive; */
+     
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Ms Madi', cursive;
+        font-size:30px;
+       
+    
+    }
+
+
+
+
+.mobile h1, .desktop h1, header h1 {
+    width: 40%;
+    margin-left: 250px;
+    font-size: 60px;
+    font-style: oblique;   
+    color:  rgb(74, 14, 65);
+     text-shadow: 20px 20px 30px rgb(20, 6, 6); 
+
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     font-family: 'Gloria Hallelujah', cursive;
+    
+    
+       } 
+
+
+
+header{
+
+    border-radius: 15px ;
+    background-color: rgb(149, 105, 158) ;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 30px  #9d7b98;
+
+    
+   }
+
+   
+
+ 
+
+
+
+   .navigation{
+    
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    /* @media(max-width: 600px){ display: block;} */
+
+}
+
+
+
+
+.musique{ 
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(235, 181, 181);}
+
+
+    .doremi{display: none ;
+    }
+
+    .musique:hover .doremi{
+
+        display: block;
+        position: static;
+        margin-top: -20px;
+        margin-left: -20px;
+
+       opacity: 20%;
+
+       /* @media (max-width:600px){
+          position:static;
+        margin-top: -10px;
+        margin-left: -10px;
+        
+       } */
+    }
+
+    .musique:hover .ciao{
+        
+     display: none; 
+    
+    
+    }
+
+    .mode{
+
+        /* border: 2px solid; */
+        width: 100px;
+        height: 100px;
+        display: block;
+        background-image: url(../imgs/light.png);
+    }
+
+    .light{
+
+        width: 100px; height: 100px;
+        }
+
+/* .navigation li a:hover
+
+{ 
+    
+font-size: 40px;
+
+} */
+
+
+li{ list-style-type: none;}
+
+
+
+/* MAIN*/
+
+section{
+
+ 
+  border-radius: 10px;
+  background-color: #bdb1c5;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+}
+
+.cparti a {
+
+
+ text-decoration: none ;
+
+}
+
+
+
+.cparti a:active {
+
+ color: whitesmoke;
+}
+
+.cparti a:hover {
+
+ color: rgb(214, 48, 156); 
+}
+
+
+.cparti h3{
+
+ text-align: center;
+
+ padding-bottom: 20px;
+}
+
+.aff{
+
+
+ margin-top: -15px;
+ box-shadow: 10px 10px 30px rgb(214, 48, 156);
+}
+
+
+.cparti{
+
+
+ box-shadow: 10px 10px 30px rgb(214, 48, 156);
+
+}
+
+.cparti a{color: rgb(1, 0, 1);}
+
+
+.portrait{
+
+width: 50%;
+margin-left: 0px;
+
+}
+
+
+.reportrait
+{
+display: flex;
+justify-content: space-around;}
+
+.libre{
+
+ display: flex;
+
+
+width: 80%;
+
+margin-left: auto;
+margin-right: auto;
+margin-top: -30px;
+justify-content: space-around;
+
+
+
+
+
+}
+
+
+
+
+.bye{
+
+font-family: 'Nothing You Could Do', cursive;
+
+}
+
+
+.byebye{
+
+color: #000000;
+text-shadow: 0 0 25px #ec0e7d;
+margin-top: 25px;
+margin-left: 60px;
+letter-spacing: 2px;
+font-size: 20px;
+font-family: 'Nothing You Could Do', cursive;
+animation:nager 1s infinite; 
+
+
+}
+
+
+
+
+
+
+.pres{
+
+
+margin-left: -80px;
+}
+
+.rose{
+
+ border-radius: 50%;
+ width: 150px;
+ height: 150px;
+ margin-top: 50px;
+ margin-left: 0px;
+ display: block;
+ border-left: 3px solid rgb(187, 25, 55);
+ border-bottom: 1px solid rgb(117, 32, 49);
+ border-right: 3px solid goldenrod;
+
+
+}
+
+
+
+
+
+
+
+
+span{
+
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'IM Fell English', serif;
+font-size: 30px;
+
+}
+   footer{
+
+     width: 90%;
+margin-left: auto; margin-right: auto;
+margin-bottom: 20px;
+border-radius: 15px;
+
+   
+   padding-bottom: 10px;
+   text-align: center;
+
+  }
+
+  footer p a {
+
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: white;
+  }
+
+
+.ombre{font-style: italic;
+font-weight: bold;
+color: #65225b;
+ }
+
+
+footer p a:hover {
+
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: white;
+font-size: 25px;
+  }
+
+   /* scroll barre  */
+
+   ::-webkit-scrollbar {
+    width: 1.5rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 0.5rem solid whitesmoke;
+    box-shadow: inset 0 0 2.5px 3px pink;
+    border-radius: 0rem;
+    background-color: whitesmoke;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(200deg, #9e4673, whitesmoke);
+    border-radius: 1rem;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(10deg, #9e4673,whitesmoke, #9e4673);
+  }
+
+  .mobile{
+
+    display: none;
+  }
+
+  .amour{cursor: pointer;}
+
+  .heart{
+    color: #65225b;
+    font-size: 25px;
+  animation:pluie  linear  forwards 1; 
+    position: fixed;
+    top: 0;
+  }
+  
+  @keyframes pluie 
+  {
+
+    0%{ transform: translateY(-5vh);}
+    100%{transform: translateY(110vh);}
+  }

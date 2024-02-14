@@ -1,0 +1,122 @@
+.show-desk
+
+
+{display: none;}
+
+.show-mobile{
+
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    justify-content: center;
+}
+
+header{
+
+
+   
+        height: 50px;
+        background-color: rgb(6, 6, 49);
+
+        position: fixed;
+        left: 0; right: 0;
+    
+    
+        
+    
+
+}
+
+
+.accordion
+
+{
+
+    
+width: 500px;
+   margin-top: 150px;
+    
+ 
+
+
+  
+}
+.dark #item1{
+
+    background-color: red;
+}
+
+.dark #item2{
+
+    background-color: orange;
+}
+
+.dark #item3{
+
+    background-color: gold;
+}
+
+.dark #item4{
+
+    background-color: green;
+}
+
+.dark #item5{
+
+    background-color: rgb(44, 172, 207) ;
+}
+
+
+.hiboux
+{@media (max-width:800px){
+
+    position: fixed;
+
+    width: 100px;
+    animation: dansehibou  1s infinite;
+    cursor: pointer;
+
+}
+} 
+
+ #item1{
+
+    background-color: rgb(245, 128, 128);
+}
+
+
+ #item2{
+
+    background-color: rgb(222, 180, 101);
+}
+
+ #item3{
+
+    background-color: rgb(255, 227, 70);
+}
+
+ #item4{
+
+    background-color: rgb(143, 214, 143);
+}
+
+ #item5{
+
+    background-color: rgb(167, 235, 254) ;
+}
+
+.imgdark{
+    display: none;
+}
+
+.dark .img {display: none;}
+
+.dark .imgdark{display: block;}
+
+.dark .accordion-body{
+    background-color: white;
+}
+
+.accordion-body{background-color: #b4bdc6;}

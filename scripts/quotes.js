@@ -1,0 +1,125 @@
+
+
+const quotes=[
+
+
+`Je suis formidable`,
+`Je suis motivé(e)`,
+`Je suis toujours positif (positive)`,
+`Je vis dans l'instant présent`,
+`Je suis maître de ma vie`,
+`Je suis intelligent(e)`,
+`J'ai des idées géniales`,
+`Je prends les bonnes décisions`,
+`Je suis bien dans mon corps et dans ma tête`,
+`Je suis courageux(se)`,
+`Je suis charismatique`,
+`J'accepte le changement`,
+`Je prends soin de mon corps`,
+`J'ai du succès`,
+`Je me sens comblé(e) dans ma vie`,
+`J'ose`,
+`J'avance vers mes objectifs`,
+`J'attire facilement les gens à moi`,
+`Je suis libre`,
+`Je prends ma vie en main`,
+`Je suis déterminée`,
+`Je suis unique`,
+`Mon projet est un succés`,
+`Je crée la vie de mes rêves`,
+`J'ai une maison magnifique`,
+`Je suis fière de moi`,
+`Je suis capable de tout`,
+`Je vois les choses en grand`,
+`Je suis une personne accomplie`,
+`J'ai une énergie fantastique`,
+`Cette année est exceptionnelle`,
+`Je rayonne de bonheur`,
+`Je suis en harmonie avec moi-même`,
+`Je respecte mes valeurs`,
+`Je suis épanouie`,
+`J'ai beaucoup de gratitude pour la vie que je mène`,
+`Je rayonne et j'attire le positif à moi`,
+`Je suis à ma place et tout est parfait`,
+`Je crée moi-même ma réussite`,
+`Je mérite amour et respect`,
+`Je suis forte et ambitieuse`,
+`Je suis fière du chemin parcouru`,
+
+`Je gagne beaucoup d'argent en étant moi et en faisant ce que j'aime`,
+`J'ai confiance en moi`,
+`Chaque jour je vis de plus en plus la réussite et l'abondance`,
+`Ma parole est toujous impeccable`,
+`Je me traite avec beaucoup de respect`,
+`J'acceuille les changements avec joie`,
+`J'ai tout ce qu'il faut en moi`,
+`Mes qualités sont formidables`,
+`J'attire les bonnes personnes dans ma vie`,
+`Je démarre chaque nouvelle journée avec beaucoup d'enthousiasme`,
+`Je crois en moi et mes capacités`,
+`Tout se met en place pour que je puisse réaliser mes objectifs`,
+`Je suis là pour apprendre et expérimenter`,
+`J'agis`,
+`J'ai beaucoup de valeur`,
+`Je crois en moi`,
+`Je pardonne`,
+`Je suis en paix avec mon passé`,
+`Je dépasse mes limites`,
+`Je donne aux autres et celà m'apporte de la joie`,
+`Je gére mes emotions`,
+`J'attire la prospérité`,
+`Je suis sereine`,
+`Je mérite le meilleur que la vie à m'offrir`,
+`Je vis chaque jour dans le moment présent`,
+`Je possède un trésor intérieur inestimable`,
+`Je mérite le bonheur et je décide d'être heureuse`,
+`J'ose sortir de ma zone de confort`,
+`Je décide de renoncer à mes pensées négatives`,
+`Je suis patient(e)`,
+
+`Je pose une intention positive sur ma journée`,
+`J'observe et apprécie la beauté des choses de la vie`,
+`Chaque jour est une nouvelle opportunité de faire ce que j’aime`,
+`Je suis connecté(e) à moi-même et en accord avec mes envies profondes`,
+`J'ai le choix`,
+`Je décide qu'aujourd'hui sera une journée formidable.`,
+`J'attire à moi tout ce que je désire.`,
+`Je gagne de l'argent facilement`,
+`Chaque jour j'attire de nouvelles opportunités`,
+`Je réussis tout ce que j'entreprends`,
+`Je suis concentré(e) sur mon but`,
+`J'avance`,
+`Je mets de l'amour et du positif dans tout ce que je fais`,
+`Je lâche prise sur ce que je ne peux pas contrôler`,
+`Je détiens les clés de mon succès`,
+`Je reste fidèle à mes valeurs`,
+`Je m'exprime avec facilité`,
+`J'aime mon corps et j'en prends grand soin`,
+`J'accepte ce qui est`,
+`Je me sens chaque jour de plus en plus en forme`,
+`Je reconnais mes talents`,
+`Chaque jour je progresse vers un mieux-être`,
+`Je change ce qui ne me satisfait pas`,
+`Je suis aimé(e)`,
+`Je me sens en harmonie avec tout ce qui m'entoure`,
+`Je concentre mon attention sur les choses positives`,
+`Mon attitude est le reflet de qui je suis
+`,
+`Je suis Moi, et je m'aime  
+`,
+`Je suis serein(e)`,
+
+
+]
+
+const quote=document.querySelector(".quote")
+
+
+quote.textContent=quotes[random()]
+
+const icon=document.querySelector(".icon")
+
+icon.addEventListener("click", (params) => {
+    quote.textContent=quotes[random()]
+
+})
