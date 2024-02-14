@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 
+import { FaChrome } from 'react-icons/fa';
 
 
 
@@ -61,6 +62,13 @@ Pour accompagner toute personne atteinte d'un stress post-traumatique
 <p>
 <strong>Instructions setup/use</strong>
 </p>
+
+<code style={{ textAlign: "center" }}>
+  <strong>
+    {" "}
+    &nbsp; Ouvrez dans chrome  <FaChrome/>
+  </strong>
+</code>
 <code>
 <strong>Trouvez dans la barre d'adresse </strong>
 </code>
