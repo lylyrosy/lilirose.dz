@@ -91,7 +91,6 @@ Pour accompagner toute personne atteinte d'un stress post-traumatique
   {" "}
   Pour consulter Lili Rose &nbsp;
 </span>
-{/* <a href="./indexx.html">Cliquez ici </a> */}
 
 <Link to="/indexx">Cliquez ici </Link>
 
