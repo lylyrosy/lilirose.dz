@@ -1,13 +1,48 @@
 import './App.css';
 
+
+
 import { Helmet } from 'react-helmet-async';
 
+import { BrowserRouter,Routes,Route } from "react-router-dom";
+
+
+import indexx from './pages/indexx';
+import darkindek from './pages/darkindek';
+import coherence from './pages/coherence';
+
+
+
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
   
 
     <div>
+
+
+
+    <BrowserRouter>
+    
+   <Routes>
+
+   <Route indexx element ={<indexx/>} />
+
+
+    <Route darkindek element ={<darkindek/>} />
+
+    <Route coherence element ={<coherence/>} />
+
+
+    </Routes>
+    
+
+
+       </BrowserRouter>
+
+
+
 
 
 
@@ -77,7 +112,11 @@ function App() {
       {" "}
       Pour consulter Lili Rose &nbsp;
     </span>
-    <a href="./indexx.html">Cliquez ici </a>
+    {/* <a href="./indexx.html">Cliquez ici </a> */}
+
+    <Link to="/indexx">Cliquez ici </Link>
+
+
   </p>
   <p className="groupo">
     Mon kif pour l'informatique m'accompagne sur le chemin qui mène à la paix...
