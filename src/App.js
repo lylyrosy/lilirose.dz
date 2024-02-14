@@ -44,66 +44,14 @@ function App() {
 
 </Helmet>
 
-<div className="container">
-<h1>
-Bienvenue <br />
-Fais comme chez toi
-</h1>
-<p className="design">
-Designed by Lili Rose- 100% free à but caritatif
-<br />
-<br />
-Conjointement avec Dr 
-<strong>SIF.Zahia</strong> Gynécologue-Obstétricienne <br />
-<br />
-Pour accompagner toute personne atteinte d'un stress post-traumatique
-</p>
-<p>
-<strong>Instructions setup/use</strong>
-</p>
-<code>
-<strong>Trouvez dans la barre d'adresse </strong>
-</code>
-<br />
-<code>
-<strong>
-  {" "}
-  <span className="points"> ⁝ </span> INSTALLER (mobile)
-</strong>
-</code>
-<code>
-<strong>
-  {" "}
-  <span className="points">💻</span>INSTALLER (desktop){" "}
-</strong>
-</code>
 
-<code style={{ textAlign: "center" }}>
-{" "}
-&nbsp; alt+ <span className="points">🔙</span>(retour desktop)
-</code>
-
-
-
-<br />
-<p>
-<span style={{ letterSpacing: 1, color: "rgb(101, 5, 47)" }}>
-  {" "}
-  Pour consulter Lili Rose &nbsp;
-</span>
 
 <Link to="/indexx">Cliquez ici </Link>
 
 
-</p>
-<p className="groupo">
-Mon kif pour l'informatique m'accompagne sur le chemin qui mène à la paix...
-</p>
-<code>Lili Rose Version 1.1 Beta</code>
 
 
-  
-</div>
+
 
 
 
