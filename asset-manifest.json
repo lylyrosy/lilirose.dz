@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lilirose.dz/static/css/main.f855e6bc.css",
-    "main.js": "/lilirose.dz/static/js/main.f8bec3b3.js",
+    "main.js": "/lilirose.dz/static/js/main.e3069c62.js",
     "static/js/592.3a4dcaf7.chunk.js": "/lilirose.dz/static/js/592.3a4dcaf7.chunk.js",
     "service-worker.js": "/lilirose.dz/service-worker.js",
     "index.html": "/lilirose.dz/index.html",
     "main.f855e6bc.css.map": "/lilirose.dz/static/css/main.f855e6bc.css.map",
-    "main.f8bec3b3.js.map": "/lilirose.dz/static/js/main.f8bec3b3.js.map",
+    "main.e3069c62.js.map": "/lilirose.dz/static/js/main.e3069c62.js.map",
     "592.3a4dcaf7.chunk.js.map": "/lilirose.dz/static/js/592.3a4dcaf7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.f8bec3b3.js"
+    "static/js/main.e3069c62.js"
   ]
 }
