@@ -66,8 +66,9 @@ Pour accompagner toute personne atteinte d'un stress post-traumatique
 <code style={{ textAlign: "center" }}>
   <strong>
     {" "}
-    &nbsp; Ouvrez dans chrome  <FaChrome/>
+    &nbsp; Ouvrez dans chrome <FaChrome/>
   </strong>
+  <br />
 </code>
 <code>
 <strong>Trouvez dans la barre d'adresse </strong>
