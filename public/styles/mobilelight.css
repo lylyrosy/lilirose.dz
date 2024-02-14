@@ -1,0 +1,385 @@
+
+
+/* MENUS HEADER  */
+
+  .mobile{display: block;}
+  
+  .desktop{display: none;}
+
+
+input{
+
+  display: none;
+}  
+
+
+
+.headmob{position: relative;}
+
+.ruburg{
+  
+  position: absolute;
+
+top: 20px;
+font-size: 30px;
+color: whitesmoke;
+right: 20px;
+
+}
+
+.ruburg:hover{
+
+  color: rgb(255, 219, 243);
+}
+
+.menushow{display: none;
+
+margin-top: -20px;}
+
+#ruburger:checked + .menushow
+
+{display: block;
+
+
+}
+
+
+
+
+h1.titremob {
+
+  
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:40px;
+    margin-left: 16px;
+
+
+}
+
+.fa-ribbon{
+
+  transform: scaleX(1.4);
+  transform: scale(1.4);
+
+
+}
+
+.souscategmob{
+
+  display: none;
+
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.sousmob
+
+{display: none;
+
+  margin-top: 10px;
+
+
+}
+
+#bbsous:checked+ .sousmob{
+  display: block;
+  margin-left: -20px;
+
+
+}
+
+
+
+
+
+
+.bl{margin-left: -10px;}
+
+
+.bl:hover{
+
+  
+  text-decoration: none;
+  color: black;
+font-size:15px;
+  letter-spacing: 1px;
+ font-weight: bold;
+ border: none;
+
+ 
+}
+
+
+#bblivres:checked+ .sousmob{
+  display: block;
+  margin-left: -20px;
+
+
+}
+
+
+/* .mpmob:hover .souscategmob {display: block;}  */
+
+#caty:checked+ .souscategmob{ display: block;}
+
+.mpmob,.mpmobcaty,.mpmoblampe{
+
+  color: whitesmoke;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 12px 15px; 
+
+  
+ 
+}
+
+ .mpmob a:hover , .mpmobcaty:hover{ 
+
+  color: rgb(49, 0, 41);
+  font-size: 25px;
+  padding: 10px 15px;
+
+
+
+} 
+
+.mpmob a:hover{
+
+  opacity: 0.8;
+  padding: 10px 15px;
+  color: rgb(49, 0, 41);
+  font-size: 25px;
+
+   box-shadow:  0 0 10px whitesmoke;  
+  border-radius: 5px;
+} 
+
+
+.mpmoblampe a:hover{
+
+  opacity: 0.8;
+  padding: 10px 15px;
+  color: rgb(49, 0, 41);
+  font-size: 25px;
+
+  /* box-shadow:  0 0 10px whitesmoke;  */
+  border-radius: 5px;
+}
+
+
+
+ .mpmob a{
+  margin-left: 10px;
+
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 15px; 
+
+
+} 
+
+   .bb{ 
+
+  text-decoration: none;
+  color: black;
+font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px dotted whitesmoke;
+ padding: 10px 10px;
+     margin-left:-10px;
+}  
+
+/* .bx  c'est label.bl si on veut simplifier*/
+
+label.bl{
+
+  text-decoration: none;
+  color: black;
+font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px dotted whitesmoke;
+margin-left: -10px;  
+
+padding: 10px 10px;
+
+
+} 
+
+
+
+.sousmob li a {
+
+  text-decoration: none;
+  color: black;
+font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px dotted rgb(214, 183, 183);
+border-radius: 15px;
+padding: 10px 10px;
+
+
+}
+
+.souscategmob li{    padding: 10px 10px;
+}
+
+.souscategmob li a:hover{ 
+
+  text-decoration: none;
+  color: black;
+font-size: 15px;
+  letter-spacing: 1px;
+ font-weight: bold;
+
+}
+
+
+
+
+
+/* lampe rose mobile */
+
+.musiquemob{ 
+    
+  font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;}
+
+
+  .doremimob
+  
+  {display: none ;
+  }
+
+  .musiquemob:hover .doremimob{
+
+     display: block;
+      position: static;
+      margin-top: 10px;
+      margin-left: 10px;
+
+     opacity: 20%;
+
+   
+  }
+
+  .musiquemob:hover .ciaomob{
+      
+   display: none; 
+  
+  
+  }
+
+  .modemob{
+
+      width: 70px;
+      height: 80px;
+      display: block;
+
+      background-image: url(../imgs/light.png);
+  }
+
+
+
+ .fa-envelope-open{
+  position:absolute; right:70px ; margin-top: -40px; 
+  font-size: 30px; color: bisque;
+ }
+
+.fa-envelope{position:absolute; right:20px;
+   display: block; font-size: 30px; } 
+
+
+
+
+
+
+
+
+ .fa-apple-whole
+ 
+{position:absolute;
+  
+  right: 30px;
+  
+   font-size: 25px; color: rgb(51, 213, 81);
+
+   display: block;
+  
+  
+  } 
+
+
+  .fa-fish-fins{
+
+    position:absolute;
+  
+    right: 70px; margin-top: -135px;
+    
+     font-size: 30px;
+
+     color: orange;
+
+     display: none;
+
+  }
+
+  .poissonage{display: none;}
+  #bbsous:checked~ .poissonage{display: block;}
+
+   /* .fa-readme
+   {position:absolute; right:30px; 
+    font-size: 25px; color: rgb(170, 225, 31);} */
+
+  .fa-readme
+  {
+
+    position:absolute;
+  
+    right: 70px; margin-top: -135px;
+    
+     font-size: 40px;
+
+     color: rgb(235, 215, 178);
+
+     display: none;
+  }
+
+  .bookop{display: none;}
+  #bblivres:checked~ .bookop{display: block;}
+
+
+
+    .fa-book {
+
+      position:absolute; right:30px; 
+    font-size: 25px; color: rgb(58, 27, 8);
+      
+
+    }
+
+    .fa-person-swimming
+    {
+      position:absolute; right:30px; 
+    font-size: 25px; color: rgb(98, 194, 219);}
+    
+   .fa-heart-pulse
+   {
+    position:absolute; right:20px; 
+  font-size: 25px; color: rgb(230, 171, 209);}
+
+
+  /* SECTIONS MAIN POUR LE MOBILE POUR ENLEVER@MEDIA MAX WIDTH DE SYLE ET DARKSTYLE CSS  */
+
+
+
+
+
+  .byebye{display: none ;}
+
+  .pres{ margin-left: -10px;}
+
+  
+.pres{ animation: flashing 1s infinite;}
+

@@ -1,0 +1,453 @@
+*{
+
+    margin: 0;
+}
+
+
+.groscadeau{
+
+    @media (max-width:700px) {
+
+        display:none;
+        
+    }
+
+    @media (min-width:700px) {
+
+        width: 100%;
+        
+    }
+
+
+}
+.cadeau {
+
+   
+
+ @media (max-width:700px) {
+
+      background-image: url(../imgs/kdo.jpg);
+    background-size: cover;
+    background-position: center;
+      height: 800px;
+ }
+
+
+
+    
+    
+}
+
+@keyframes lilirosedanse
+ {
+    0%{
+
+        border-radius: 5px;
+        padding: 5px 30px;
+    }
+
+    50%
+    {
+
+      border-radius: 60px;
+      padding: 3px 5px;
+    }
+
+    100%
+    {
+
+      border-radius: 5px;
+      padding: 5px 30px;
+    }
+}
+
+
+@keyframes lilirosechante
+ {
+    0%{
+
+        transform: translate(0, 0);
+    }
+
+
+
+    60% 
+    {
+
+        transform: translate(0,-200px);
+    }
+
+    100%
+    {
+
+        transform: translate(0,0);
+    }
+}
+.btn{
+
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 40px;
+    background: transparent;
+    color: red;
+    font-size: 20px;
+
+    border: solid red;
+    /* border: 5px solid red; */
+    /* font-family:'Ms Madi', cursive; */
+    font-weight: bolder;
+    /* width: 250px; */
+    border-radius: 5px;
+    animation: lilirosedanse 3s infinite;
+   
+}
+
+
+
+@keyframes dansehibou {
+
+    0%{
+        transform: translate(0,0);
+    }
+
+    50%{ transform: translate(20px,0);
+
+        opacity: 0.6;
+
+
+    }
+
+    100%{
+
+transform: translate(0,0);  
+  }
+    
+}
+
+
+
+.here{
+
+ position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 120px;
+    height: 100px;
+    display: block;
+    background-image: url(../imgs/vecto.png);
+    animation: dansehibou 2s infinite;
+
+}
+
+
+
+
+
+h1{
+
+    position: fixed;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+font-family:'Ms Madi', cursive;
+font-weight: bolder;
+
+color: rgb(44, 5, 24);
+
+/* animation: lilirosechante 7s infinite */
+
+@media (min-width:700px) 
+
+{
+    
+    /* font-size: 50px; */
+
+    font-size: 6vh;
+    
+    margin-top: -130px;
+    position: absolute;
+    
+}
+@media (max-width:700px) 
+{
+
+/* {font-size: 35px; */
+    font-size: 4vh;
+
+    margin-top: -80px;
+      position: absolute;
+    
+    
+}
+
+
+
+}
+
+
+
+
+
+.rub{
+
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.ruby{
+
+
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+.ruban{
+
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -60px;
+    width: 100%;
+    /* animation: liliruban 5s infinite; */
+
+}
+
+
+.rubebes{
+
+
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   top: -10px;
+    width: 100%;
+    /* animation: lilirubebes 5s infinite; */
+}
+
+
+
+
+
+@keyframes liliruban
+ {
+    0%{
+
+        transform: translate(0,0);
+}
+
+
+20%{
+
+    transform: translate(0,-200px);
+
+}
+30%{
+
+    transform: rotate(90deg);
+}
+  
+50%{
+transform: rotateX('180deg');
+}
+
+
+    100%
+    {
+        transform: translate(0,-600px);
+       
+opacity: 70%;
+    }
+}
+
+
+
+
+@keyframes lilirubebes
+ {
+    0%{
+
+        transform: translate(0,0);
+}
+
+
+20%{
+
+    transform: translate(0,300px);}
+
+
+    30%{
+
+        transform: translate(0,600px);}
+
+        50%{
+
+            transform: rotate(180deg);}
+
+            800%{
+
+                transform: translate(0,15px);}
+
+
+    100%
+    {
+        transform: translate(0,0px);
+       
+opacity: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ruban1{
+
+    animation: liliruban 4s infinite;
+   
+    
+
+}
+
+.ruban2{
+
+    animation: liliruban 2.5s infinite;
+
+}
+
+.ruban3{
+
+    animation: liliruban 15s infinite;
+    width: 400px;
+    height: 700px;
+
+}
+.ruban4{
+
+    animation: liliruban 4.5s infinite;
+
+}
+.ruban5{
+
+    animation: liliruban 5s infinite;
+
+}
+.ruban6{
+
+    animation: liliruban 5.5s infinite;
+
+}
+.ruban7{
+
+    animation: liliruban 6s infinite;
+
+}
+
+
+.ruban8{
+
+    animation: lilirubebes 2s infinite;
+
+    width: 150px;
+    height: 300px;
+}
+
+.ruban9{
+
+    animation: lilirubebes 2.5s infinite;
+
+}
+
+.ruban10{
+
+    animation: lilirubebes 3.5s infinite;
+    width: 100px;
+    height: 500px;
+
+}
+
+.ruban11{
+
+    animation: lilirubebes 4s infinite;
+
+}
+
+.ruban12{
+
+    animation: lilirubebes 5s infinite;
+    width: 400px;
+    height: 700px;
+
+}
+
+.bingo{
+
+  display: none;
+    
+}
+
+.ciaoo:hover .bingo{
+
+    display: block;
+}
+
+.ciaoo:hover .btn
+
+{display: none;}
+
+
+.rubrose{
+
+    font-size: 30px;
+    color: hwb(314 39% 0%);
+}
+
+.survolrose {
+
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   top: -20px;
+    width: 100%;
+    animation: lilisurvolrose 20s 1;
+    opacity: 0;
+
+}
+
+
+@keyframes lilisurvolrose
+ {
+    0%{
+
+        transform:translate(0,0px);
+        opacity: 100%;
+       
+}
+
+
+    10%{
+
+        transform: rotate(-170deg);}
+
+
+
+
+
+    100%
+    {
+        transform: translate(0,1000px);
+       
+opacity: 70%;
+
+    }
+}

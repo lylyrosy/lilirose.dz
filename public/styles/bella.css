@@ -1,0 +1,309 @@
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+body{
+
+    background-color: #eeeeea;
+    background-image: url(../imgb/sport.jpg);
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+header{
+
+
+    @media (min-width:800px) {
+        height: 50px;
+        background-color: royalblue;
+       
+        position: fixed;
+        left: 0; 
+        right: 0;
+    
+        
+    }
+
+}
+
+header> h1{
+
+    color: white;
+    font-size: 40px;
+    font-family: 'Nothing You Could Do', cursive;
+font-family: 'Over the Rainbow', cursive;
+font-family: 'Sacramento', cursive;
+
+
+}
+
+
+
+
+input{display: none;}
+
+
+.wrap
+
+{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+
+}
+
+
+
+
+.card{
+
+
+
+    height: 400px;
+
+    width: 80px;
+
+  border: 2px solid black;
+
+ --bs-card-border-radius:0;
+  --bs-card-inner-border-radius:0;
+   /*  border-radius: .75rem;  
+   border-radius: 2rem;  */
+
+}
+
+
+
+
+
+input:checked+ label> .card{
+    width: 400px;
+    background-color: white ;
+    transition: .6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+}
+
+
+
+.card-body{
+    display: none;
+}
+
+input:checked+ label> .card> .card-body
+{
+    display: block;
+    background-color: white;
+    transition-delay: .3s;
+transition: all .3s ease;
+}
+
+.show-mobile{
+    display: none;
+}
+
+
+  
+
+
+
+
+.pointeur{
+    cursor: pointer;
+}
+
+
+
+/* .bt:hover{ background-color: palegoldenrod;} */
+
+
+
+
+#bt1
+
+{
+    height: 30px; 
+    border: transparent ; 
+    background-color: palegoldenrod;
+
+}
+
+#bt1:hover
+{
+    background-color: rgb(246, 246, 110);
+}
+
+#bt2
+
+{
+    height: 30px; 
+    border: transparent ; 
+    background-color: palegoldenrod;
+
+}
+
+#bt2:hover
+{
+    background-color: rgb(234, 214, 218);
+}
+
+#bt3
+
+{
+    height: 30px; 
+    border: transparent ; 
+    background-color: palegoldenrod;
+
+}
+
+#bt3:hover
+{
+    background-color: rgb(175, 237, 246);
+}
+
+#bt4
+
+{
+    height: 30px; 
+    border: transparent ; 
+    background-color: palegoldenrod;
+
+}
+
+#bt4:hover
+{
+    background-color: rgb(164, 239, 164);
+}
+
+#bt5
+
+{
+    height: 30px; 
+    border: transparent ; 
+    background-color: palegoldenrod;
+
+}
+
+#bt5:hover
+{
+    background-color: rgb(247, 197, 156);
+}
+
+
+@keyframes dansehibou {
+
+    0%{
+        transform: translate(0,0);
+    }
+
+    50%{ transform: translate(20px,0);
+
+        opacity: 0.6;
+
+
+    }
+
+    100%{
+
+transform: translate(0,0);  
+  }
+    
+}
+
+
+.hiboux
+{@media (min-width:800px){
+
+ 
+    width: 100px;
+   
+    animation: dansehibou  1s infinite;
+    cursor: pointer;
+}
+} 
+
+
+.dark{
+    background-image: url(../imgb/sportnight.jpg)
+
+}
+
+.dark header{
+    background-color: rgb(6, 6, 49);
+}
+
+
+#ca1{background-color: red;}
+
+.dark #ca1
+
+{
+    background-color: rgb(255, 108, 108);
+}
+
+#ca2{background-color: orange;}
+
+.dark #ca2
+
+{
+    background-color: rgb(239, 185, 85) ;
+}
+
+
+#ca3{background-color: yellow;}
+
+.dark #ca3
+
+{
+    background-color: rgb(215, 215, 130);
+}
+
+#ca4{background-color:green;}
+
+.dark #ca4
+
+{
+    background-color: rgb(143, 210, 143);
+}
+
+#ca5{background-color: blue;}
+
+.dark #ca5
+
+{
+    background-color: rgb(80, 80, 144);
+}
+
+
+
+.imgdark{
+    display: none;
+}
+
+.dark .img {display: none;}
+
+.dark .imgdark{display: block;}
+
+.dark input:checked+ label> .card> .card-body
+{
+   
+    background-color:#ced4da;
+    ;
+   
+}
