@@ -2,12 +2,8 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter,Routes,Route } from "react-router-dom";
-import { Link } from 'react-router-dom';
 
-import indexx from './pages/indexx';
-import darkindek from './pages/darkindek';
-import coherence from './pages/coherence';
+
 
 
 
@@ -26,13 +22,13 @@ function App() {
 
     <div>
 
+<h1>zmarrrrr</h1>
 
 
 
 
 
 
-<Link to="/indexx">Cliquez ici </Link>
 
 
 
@@ -40,24 +36,9 @@ function App() {
 
 
 
-<BrowserRouter>
-    
-  
-<Routes>
-
-<Route indexx element ={indexx} />
-
-
-<Route darkindek element ={darkindek} />
-
-<Route coherence element ={coherence} />
-
-
-</Routes>
 
 
 
-</BrowserRouter>
 
 
 </div>
