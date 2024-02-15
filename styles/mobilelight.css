@@ -301,7 +301,7 @@ font-size: 15px;
  
 {position:absolute;
   
-  right: 30px;
+  right: 20px;
   
    font-size: 25px; color: rgb(51, 213, 81);
 
@@ -353,7 +353,7 @@ font-size: 15px;
 
     .fa-book {
 
-      position:absolute; right:30px; 
+      position:absolute; right:20px; 
     font-size: 25px; color: rgb(58, 27, 8);
       
 
@@ -361,7 +361,7 @@ font-size: 15px;
 
     .fa-person-swimming
     {
-      position:absolute; right:30px; 
+      position:absolute; right:20px; 
     font-size: 25px; color: rgb(98, 194, 219);}
     
    .fa-heart-pulse
