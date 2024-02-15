@@ -290,12 +290,12 @@ color: whitesmoke;}
 }
 
 
-.fa-envelope-open{
+.fa-folder-open{
   position:absolute; right:70px ; margin-top:-40px; 
   font-size: 30px; color: bisque;
  }
 
-.fa-envelope{position:absolute; right:20px; display: block; font-size: 30px; } 
+.fa-folder-closed{position:absolute; right:20px; display: block; font-size: 30px; } 
 
 
 /* .fa-apple-whole
