@@ -306,21 +306,21 @@ color: whitesmoke;}
 
    .fa-fish
    {
-    position:absolute; right:30px;
+    position:absolute; right:20px;
     font-size: 25px; color: red;
    
     display: block;
 
    }
 
-
+/* 
    .fa-readme
    {position:absolute; right:30px;
-    font-size: 25px; color: rgb(71, 30, 151);}
+    font-size: 25px; color: rgb(71, 30, 151);} */
 
     .fa-person-swimming
     {
-      position:absolute; right:30px; 
+      position:absolute; right:20px; 
     font-size: 25px; color: rgb(34, 12, 199);}
 
     .fa-heart-pulse
@@ -365,7 +365,7 @@ display: block;
 
     .fa-book {
 
-      position:absolute; right:30px; 
+      position:absolute; right:20px; 
     font-size: 25px; color: rgb(13, 5, 56);
 
     }
