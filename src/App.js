@@ -58,8 +58,8 @@ Fais comme chez toi
 Designed by Lili Rose- 100% free à but caritatif
 <br />
 <br />
-Conjointement avec Dr 
-<strong>&nbsp; SIF.Zahia</strong> Gynécologue-Obstétricienne <br />
+Conjointement avec Dr &nbsp;
+<strong> SIF.Zahia</strong> Gynécologue-Obstétricienne <br />
 <br />
 Pour accompagner toute personne atteinte d'un stress post-traumatique
 </p>
