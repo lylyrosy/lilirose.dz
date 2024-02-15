@@ -35,7 +35,7 @@ function App() {
       
       <Routes>
 
-      <Route index element ={<Bienvenue/>} />
+      <Route path='/' element ={<Bienvenue/>} />
 
       <Route path='/indexx' element ={<Indexx/>} />
 
