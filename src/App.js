@@ -59,7 +59,7 @@ Designed by Lili Rose- 100% free à but caritatif
 <br />
 <br />
 Conjointement avec Dr 
-<strong>SIF.Zahia</strong> Gynécologue-Obstétricienne <br />
+<strong>&nbsp; SIF.Zahia</strong> Gynécologue-Obstétricienne <br />
 <br />
 Pour accompagner toute personne atteinte d'un stress post-traumatique
 </p>
