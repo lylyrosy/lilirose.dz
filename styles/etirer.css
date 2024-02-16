@@ -253,3 +253,6 @@ background-color:#0005;
       position: fixed;
       top: 0;
     }
+
+    a{color: var(--texte) ;}
+    a:hover{color: var(--lifh) ;}
