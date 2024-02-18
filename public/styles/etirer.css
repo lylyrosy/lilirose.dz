@@ -106,7 +106,7 @@ background-color:#0005;
 .video-playist .videos::-webkit-scrollbar-thumb{
     
     border-radius: .4rem;
-    background-color:#fff;
+    background-color:var(--text);
 
     }
 
