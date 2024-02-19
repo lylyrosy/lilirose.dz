@@ -9,7 +9,7 @@ data=[
     `https://www.youtube.com/embed/WsBigYZ_ic0?si=4TOA14Wn1vCVs-8g`,
     `https://www.youtube.com/embed/CYaiZTo8pQo?si=VBb716XsiblUIVGo`,
     `https://www.youtube.com/embed/RUp_3B4XeCY?si=nw8yrm5RmEisQQVQ`,
-    `https://www.youtube.com/embed/0BNejY1e9ik?si=c6W0yKXcAQMJR9hG  `,
+    `https://www.youtube.com/embed/0BNejY1e9ik?si=c6W0yKXcAQMJR9hG`,
 
 
 
