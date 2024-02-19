@@ -9,6 +9,8 @@ data=[
     `https://www.youtube.com/embed/WsBigYZ_ic0?si=4TOA14Wn1vCVs-8g`,
     `https://www.youtube.com/embed/CYaiZTo8pQo?si=VBb716XsiblUIVGo`,
     `https://www.youtube.com/embed/RUp_3B4XeCY?si=nw8yrm5RmEisQQVQ`,
+    `https://www.youtube.com/embed/0BNejY1e9ik?si=c6W0yKXcAQMJR9hG  `,
+
 
 
 ]
@@ -22,6 +24,13 @@ console.log(image)
 
 image[image.length-1].addEventListener("click",(params) =>
  {
+    window.open("https://www.youtube.com/@wimhof1", "_blank");
+
+} )
+
+
+image[image.length-2].addEventListener("click",(params) =>
+ {
     window.open("https://www.youtube.com/channel/UC7JpQ9SvvYral2rRpO9AUCA", "_blank");
 
 } )
@@ -29,7 +38,7 @@ image[image.length-1].addEventListener("click",(params) =>
 
 image.forEach((element,index) => {
 
-    if(index!=image.length-1){
+    if(index<image.length-2){
 
         element.addEventListener("click", 
 () => {
