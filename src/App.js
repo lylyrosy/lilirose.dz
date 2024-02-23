@@ -63,19 +63,19 @@ Conjointement avec Dr &nbsp;
 <br />
 Pour accompagner toute personne atteinte d'un stress post-traumatique
 </p>
-<p><strong>Instructions d'installation mobile</strong></p>
+{/* <p><strong>Instructions d'installation mobile</strong></p> */}
 
 <p style={{ textAlign: "center" }}>
   <strong>
     {" "}
     &nbsp; Ouvrez dans chrome <FaChrome/>
   </strong>
-  <br />
+  {/* <br /> */}
 </p>
 <p>
 <strong>Trouvez dans la barre d'adresse </strong>
 </p>
-<br />
+{/* <br /> */}
 <code>
 <strong>
   {" "}
