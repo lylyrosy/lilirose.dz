@@ -11,7 +11,7 @@ import { FaChrome } from 'react-icons/fa';
 import { Helmet } from 'react-helmet-async';
 
 
-
+import InstallMobileIcon from '@mui/icons-material/InstallMobile';
 
 
 
@@ -63,38 +63,36 @@ Conjointement avec Dr &nbsp;
 <br />
 Pour accompagner toute personne atteinte d'un stress post-traumatique
 </p>
-<p>
-<strong>Instructions setup/use</strong>
-</p>
+<p><strong>Instructions d'installation mobile</strong></p>
 
-<code style={{ textAlign: "center" }}>
+<p style={{ textAlign: "center" }}>
   <strong>
     {" "}
     &nbsp; Ouvrez dans chrome <FaChrome/>
   </strong>
   <br />
-</code>
-<code>
+</p>
+<p>
 <strong>Trouvez dans la barre d'adresse </strong>
-</code>
+</p>
 <br />
 <code>
 <strong>
   {" "}
-  <span className="points"> ⁝ </span> INSTALLER (mobile)
+  <span className="points"> ⁝ </span> <InstallMobileIcon/> Installer l'application
 </strong>
 </code>
-<code>
+{/* <code>
 <strong>
   {" "}
   <span className="points">💻</span>INSTALLER (desktop){" "}
 </strong>
-</code>
+</code> */}
 
-<code style={{ textAlign: "center" }}>
+{/* <code style={{ textAlign: "center" }}>
 {" "}
 &nbsp; alt+ <span className="points">🔙</span>(retour desktop)
-</code>
+</code> */}
 
 
 
