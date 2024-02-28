@@ -107,7 +107,7 @@ Pour accompagner toute personne atteinte d'un stress post-traumatique
 <p className="groupo">
 Mon kif pour l'informatique m'accompagne sur le chemin qui mène à la paix...
 </p>
-<code>Lili Rose Version 1.1 Beta</code>
+<code>Lili Rose Version 1.2 Beta</code>
 </div>
 
 
