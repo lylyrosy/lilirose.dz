@@ -102,7 +102,7 @@ Pour accompagner toute personne atteinte d'un stress post-traumatique
   {" "}
   Pour consulter Lili Rose &nbsp;
 </span>
-<a href="./indexx.html">Cliquez ici </a>
+<a href="/lilirose.dz/indexx.html">Cliquez ici </a>
 </p>
 <p className="groupo">
 Mon kif pour l'informatique m'accompagne sur le chemin qui mène à la paix...
